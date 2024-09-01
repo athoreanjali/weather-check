@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./img/images.jpeg);background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+/* Header and Navigation */
+header {
+    background: rgba(248, 248, 255, 0.39);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: last baseline;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+    border: 1px solid white;
+    padding: 8px;
+    /* box-shadow: #667eea; */
+    border-radius: 6px;
+    background-color: #21a1f185;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #61dafb;
+}
+
+/* Container */
+.container {
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+    /* width: 90%; */
+    max-width: 500px;
+    
+}
+
+/* Form Styles */
+#weather-form,
+form {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 96%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#weather-form button,
+form button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #61dafb;
+    color: black;
+    cursor: pointer;
+}
+
+#weather-form button:hover,
+form button:hover {
+    background-color: #21a1f1;
+}
+
+/* Weather Display */
+.weather-display {
+    font-size: 18px;
+}
+
+.weather-display p {
+    margin: 5px 0;
+    color: black;
+}
+h3{
+    color: black;
+}
